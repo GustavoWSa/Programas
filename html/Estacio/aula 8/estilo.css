@@ -1,0 +1,48 @@
+p strong {
+color: deeppink;
+}
+strong{
+color:yellow;
+}
+a: visited{
+color: green;
+text decoration: underline;
+}
+a:active{
+color:red;
+text-decoration:none;
+background-color:purple;
+}
+a:hover{
+color: yellow;
+text-decoration: underline;
+background-color: transparent;
+}
+h1,h2,h3{
+color: #f2f3f4;
+text-align:center;
+font-size: 20px;
+background-color: #b2c3d5;
+}
+p{
+text-align: justify;
+font-family: verdana,arial;
+color: #f2f3f4;
+}
+.paragrafo1{
+font-family: arial;
+font-size: 14px;
+color: red;
+text-decoration: underline;
+}
+.paragrafo2{
+font-family: "Times New Roman", verdana;
+font-size: 18px;
+color:blue;
+}
+.paragrafo3{
+font-family: "Arial Black",verdana;
+font-size: 22px;
+color: white;
+background-color: purple;
+}

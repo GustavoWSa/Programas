@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor: Gustavo Wermelinger Sa"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soma de dois numeros"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primeiro numero"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <EditText
+        android:id="@+id/txtNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo numero"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <EditText
+        android:id="@+id/txtNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular soma"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <EditText
+        android:id="@+id/txtSomaFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/botaoTela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir para tela 1"
+        android:onClick="irParaTela1"/>
+</LinearLayout>

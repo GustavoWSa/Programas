@@ -1,0 +1,2 @@
+<a href="http://www.thebar.com" target="_blank"> aqui </a> para abrir outro site em uma aba em branco
+<a href="http://

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="utf-8">
+</head>
+<style>
+.pai{
+    background-color: red;
+    color:white;
+    height:200px;
+    width:200px;
+    position:relative;
+}
+.filho1{
+    background-color: blue;
+    color:white;
+    height:80px;
+    width:80px;
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+.filho2{
+    background-color:orange;
+    color:green;
+    height:90px;
+    width:110px;
+    position:absolute;
+
+}
+</html>
